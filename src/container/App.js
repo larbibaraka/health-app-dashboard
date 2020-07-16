@@ -12,6 +12,8 @@ import {
   faAmbulance,
 } from "@fortawesome/free-solid-svg-icons";
 import { StatsAreaOne } from "../components/StatsAreaOne";
+import { StatsAreaTwo } from "../components/StatsAreaTwo";
+import { Footer } from "../components/Footer";
 function App() {
   return (
     <div className="flex bg-gray-100">
@@ -24,9 +26,12 @@ function App() {
         <main className="m-10">
           {/* resume area */}
           <ResumeArea />
-          {/* stats area */}
-          <StatsAreaOne/>
+          {/* stats area 1 */}
+          <StatsAreaOne />
+          {/* stats area 2 */}
+          <StatsAreaTwo />
         </main>
+        <Footer/>
       </div>
     </div>
   );
