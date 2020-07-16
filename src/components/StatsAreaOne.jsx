@@ -1,10 +1,42 @@
-import React from 'react'
+import React from "react";
 
-export  function StatsAreaOne() {
-    return (
-        <div className="flex flex-row mt-5">
-        <div className="w-3/4 h-64 bg-white border rounded-lg mr-5"></div>
-        <div className="w-1/4 h-64 bg-white border rounded-lg"></div>
+export function StatsAreaOne() {
+  return (
+    <div className="flex flex-row mt-5">
+      <div className="w-3/4 h-64 bg-white border rounded-lg mr-5 shadow-sm">
+        <div className="card-title flex flex-row justify-between">
+          <div className="m-4">
+            <h3 className="text-xl font-bold ">
+              OutPatients vs. Inpatients Trend
+            </h3>
+          </div>
+          <div className="m-2 flex flex-row">
+            <h3 className="mt-2 mr-2 text-lg text-gray-600 font-semibold ">
+              Show
+            </h3>
+            <div class="w-full ">
+              <div class="relative">
+                <select
+                  class="font-bold block appearance-none w-full  text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white "
+                  id="grid-state"
+                >
+                  <option className="font-normal">By Months</option>
+                </select>
+                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                  <svg
+                    class="fill-current h-4 w-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    )
+      <div className="w-1/4 h-64 bg-white border rounded-lg shadow-sm"></div>
+    </div>
+  );
 }
