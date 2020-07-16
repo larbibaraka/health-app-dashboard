@@ -3,14 +3,6 @@ import "../assets/App.css";
 import { SideBar } from "./../components/SideBar";
 import { NavBar } from "../components/NavBar";
 import { ResumeArea } from "../components/ResumeArea";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEllipsisH,
-  faBed,
-  faUsers,
-  faWallet,
-  faAmbulance,
-} from "@fortawesome/free-solid-svg-icons";
 import { StatsAreaOne } from "../components/StatsAreaOne";
 import { StatsAreaTwo } from "../components/StatsAreaTwo";
 import { Footer } from "../components/Footer";
