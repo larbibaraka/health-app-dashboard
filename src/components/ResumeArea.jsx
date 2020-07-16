@@ -23,8 +23,8 @@ export function ResumeArea() {
                 <FontAwesomeIcon icon={faBed} />
               </span>
               <div className="text-base">
-                <p className="text-gray-900 leading-none font-bold text-lg">3,256</p>
-                <p className="text-gray-600 text-lg">Total Patients</p>
+                <p className="text-gray-900 leading-none font-bold text-xl">3,256</p>
+                <p className="text-gray-600 text-xl">Total Patients</p>
               </div>
             </div>
           </div>
@@ -41,8 +41,8 @@ export function ResumeArea() {
                 <FontAwesomeIcon icon={faUsers} />
               </span>
               <div className="text-base">
-                <p className="text-gray-900 leading-none font-bold">394</p>
-                <p className="text-gray-600">Available Staff</p>
+                <p className="text-gray-900 leading-none font-bold text-xl">394</p>
+                <p className="text-gray-600 text-xl">Available Staff</p>
               </div>
             </div>
           </div>
@@ -59,8 +59,8 @@ export function ResumeArea() {
                 <FontAwesomeIcon icon={faWallet} />
               </span>
               <div className="text-base">
-                <p className="text-gray-900 leading-none font-bold">$2,256</p>
-                <p className="text-gray-600">Avg Treat. Costs</p>
+                <p className="text-gray-900 leading-none font-bold text-xl">$2,256</p>
+                <p className="text-gray-600 text-xl">Avg Treat. Costs</p>
               </div>
             </div>
           </div>
@@ -78,8 +78,8 @@ export function ResumeArea() {
               <FontAwesomeIcon icon={faAmbulance} />
             </span>
             <div className="text-base">
-              <p className="text-gray-900 leading-none font-bold">38</p>
-              <p className="text-gray-600">Available Cars</p>
+              <p className="text-gray-900 leading-none font-bold text-xl">38</p>
+              <p className="text-gray-600 text-xl">Available Cars</p>
             </div>
           </div>
         </div>

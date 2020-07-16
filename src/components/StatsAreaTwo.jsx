@@ -6,7 +6,7 @@ export function StatsAreaTwo() {
       <div className="w-2/4 h-64 shadow bg-white  rounded-lg mr-5">
         <div className="card-title flex flex-row justify-between  border-b-2 border-gray-200 p-2">
           <div className="m-4">
-            <h3 className="text-xl font-bold ">Time Admitted</h3>
+            <h3 className="text-xl font-bold text-gray-700 ">Time Admitted</h3>
           </div>
           <div className="m-2 flex flex-row">
             <div className="w-full ">

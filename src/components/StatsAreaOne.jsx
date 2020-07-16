@@ -6,7 +6,7 @@ export function StatsAreaOne() {
       <div className="w-3/4 h-64 bg-white  rounded-lg mr-5 shadow">
         <div className="card-title flex flex-row justify-between  border-b-2 border-gray-200 p-2">
           <div className="m-4">
-            <h3 className="text-xl font-bold ">
+            <h3 className="text-xl font-bold text-gray-700">
               OutPatients vs. Inpatients Trend
             </h3>
           </div>
@@ -39,7 +39,7 @@ export function StatsAreaOne() {
       <div className="w-1/4 h-64 bg-white  rounded-lg shadow">
       <div className="card-title flex flex-row justify-center  border-b-2 border-gray-200 p-2">
           <div className="m-4">
-            <h3 className="text-xl font-bold ">
+            <h3 className="text-xl font-bold text-gray-700">
              Patients by Gender
             </h3>
           </div>
