@@ -3,7 +3,7 @@ import React from "react";
 export function StatsAreaOne() {
   return (
     <div className="flex flex-row mt-5">
-      <div className="w-3/4 h-64 bg-white border rounded-lg mr-5 shadow-sm">
+      <div className="w-3/4 h-64 bg-white  rounded-lg mr-5 shadow">
         <div className="card-title flex flex-row justify-between  border-b-2 border-gray-200 p-2">
           <div className="m-4">
             <h3 className="text-xl font-bold ">
@@ -36,7 +36,7 @@ export function StatsAreaOne() {
           </div>
         </div>
       </div>
-      <div className="w-1/4 h-64 bg-white border rounded-lg shadow-sm">
+      <div className="w-1/4 h-64 bg-white  rounded-lg shadow">
       <div className="card-title flex flex-row justify-center  border-b-2 border-gray-200 p-2">
           <div className="m-4">
             <h3 className="text-xl font-bold ">
