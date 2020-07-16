@@ -4,7 +4,7 @@ export function StatsAreaOne() {
   return (
     <div className="flex flex-row mt-5">
       <div className="w-3/4 h-64 bg-white border rounded-lg mr-5 shadow-sm">
-        <div className="card-title flex flex-row justify-between">
+        <div className="card-title flex flex-row justify-between  border-b-2 border-gray-200 p-2">
           <div className="m-4">
             <h3 className="text-xl font-bold ">
               OutPatients vs. Inpatients Trend
@@ -14,17 +14,17 @@ export function StatsAreaOne() {
             <h3 className="mt-2 mr-2 text-lg text-gray-600 font-semibold ">
               Show
             </h3>
-            <div class="w-full ">
-              <div class="relative">
+            <div className="w-full ">
+              <div className="relative">
                 <select
-                  class="font-bold block appearance-none w-full  text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white "
+                  className="font-bold block appearance-none w-full  text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white "
                   id="grid-state"
                 >
                   <option className="font-normal">By Months</option>
                 </select>
-                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                   <svg
-                    class="fill-current h-4 w-4"
+                    className="fill-current h-4 w-4"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                   >
@@ -36,7 +36,16 @@ export function StatsAreaOne() {
           </div>
         </div>
       </div>
-      <div className="w-1/4 h-64 bg-white border rounded-lg shadow-sm"></div>
+      <div className="w-1/4 h-64 bg-white border rounded-lg shadow-sm">
+      <div className="card-title flex flex-row justify-center  border-b-2 border-gray-200 p-2">
+          <div className="m-4">
+            <h3 className="text-xl font-bold ">
+             Patients by Gender
+            </h3>
+          </div>
+
+        </div>
+      </div>
     </div>
   );
 }
