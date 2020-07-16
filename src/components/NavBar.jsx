@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell , faChevronDown} from "@fortawesome/free-solid-svg-icons";
 export const NavBar = () => {
   return (
-    <div className="flex bg-white h-16 w-full justify-between">
+    <div className="flex bg-white h-16 w-full justify-between shadow">
       <div className="search">
         <input
           className="w-full ml-5 p-4 h-16 text-gray-700  focus:outline-none focus:bg-gray-100"
