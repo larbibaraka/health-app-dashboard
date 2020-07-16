@@ -1,6 +1,7 @@
 import React from "react";
 import profileImage from "../assets/images/profile.jpg";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBell , faChevronDown} from "@fortawesome/free-solid-svg-icons";
 export const NavBar = () => {
   return (
     <div className="flex bg-white h-16 w-full justify-between">
@@ -12,12 +13,14 @@ export const NavBar = () => {
         />
       </div>
       <div className="profile flex items-center mr-12">
-        <div className="notification bg-gray-200 items-center mr-1">
-          <button>notif</button>
+        <div className="notification items-center mr-1">
+          <span className="w-12 h-12  mr-4 text-gray-600 cursor-pointer">
+            <FontAwesomeIcon icon={faBell} />
+          </span>
         </div>
-        <div className="profile-image flex items-center mr-1">
+        <div className="profile-image flex items-center mr-5">
           <img
-            className="w-10 h-10 rounded-full mr-4"
+            className="w-10 h-10 rounded-full mr-2"
             src={profileImage}
             alt=""
           />
@@ -27,8 +30,10 @@ export const NavBar = () => {
             </p>
           </div>
         </div>
-        <div className="profile-settings-dropdown items-center mr-1">
-          <button className="text-gray-600 focus:outline-none">&darr;</button>
+        <div className="profile-settings-dropdown items-center mr-4 mt-1">
+        <span className="w-12 h-12 text-gray-500 cursor-pointer">
+            <FontAwesomeIcon icon={faChevronDown} />
+          </span>
         </div>
       </div>
     </div>
