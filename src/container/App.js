@@ -23,7 +23,7 @@ function App() {
         {/* navbar area */}
         <NavBar />
         {/* main area */}
-        <main className="m-10">
+        <main className="m-10 p-10">
           {/* resume area */}
           <ResumeArea />
           {/* stats area 1 */}
