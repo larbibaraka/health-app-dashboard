@@ -4,7 +4,7 @@ export const SideBar = () => {
   return (
     <div className="sidebar flex flex-col bg-white w-1/5">
       <div className="logo h-16 justify-center ">SomeLogo</div>
-      <div className="bg-gray-200 menu p-6 flex flex-col">
+      <div className="bg-white menu p-6 flex flex-col">
         <div className="register-patient self-center">
           <button className="bg-indigo-700 text-gray-200 px-6 py-3 rounded-md font-semibold   hover:bg-indigo-800 hover:text-white items-center focus:outline-none">
             Register patient +
