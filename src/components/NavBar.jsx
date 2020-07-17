@@ -7,7 +7,7 @@ export const NavBar = () => {
     <div className="flex bg-white h-16 w-full justify-between shadow">
       <div className="search">
         <input
-          className="w-full ml-5 p-4 h-16 text-gray-700  focus:outline-none focus:bg-gray-100"
+          className="w-full   p-4 h-16 text-gray-700  focus:outline-none focus:bg-gray-100"
           placeholder="Search ..."
           type="text"
         />
