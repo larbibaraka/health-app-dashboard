@@ -5,9 +5,9 @@ import { faBell , faChevronDown} from "@fortawesome/free-solid-svg-icons";
 export const NavBar = () => {
   return (
     <div className="flex bg-white h-16 w-full justify-between shadow">
-      <div className="search">
+      <div className="search w-3/4 mr-8 ">
         <input
-          className="w-full   p-4 h-16 text-gray-700  focus:outline-none focus:bg-gray-100"
+          className="w-full p-4 h-16 text-gray-700  focus:outline-none focus:bg-gray-100"
           placeholder="Search ..."
           type="text"
         />
