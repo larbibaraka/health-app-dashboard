@@ -39,10 +39,14 @@ export function StatsAreaOne() {
         </div>
         <div className="p-10 flex flex-row justify-center">
           <PatientsBarChart />
-          <PatientsCircleChart color1="#713bdb" color2="#39d39f" title1="Inpatients" title2="Outpatients" textcolor1 = "purple" textcolor2="green"/>
+          <div className="flex flex-col justify-center ml-20">
+
+        
+          <PatientsCircleChart color1="#713bdb" color2="#39d39f" title1="Inpatients" title2="Outpatients" textcolor1 = "text-purple-500" textcolor2="text-green-500"/>
+          </div>
         </div>
       </div>
-      <div className="w-1/4 h-64 bg-white  rounded-lg shadow">
+      <div className="w-1/4  bg-white  rounded-lg shadow">
         <div className="card-title flex flex-row justify-center  border-b-2 border-gray-200 p-2">
           <div className="m-4">
             <h3 className="text-xl font-bold text-gray-700">
@@ -50,6 +54,9 @@ export function StatsAreaOne() {
             </h3>
             
           </div>
+        </div>
+        <div className="flex flex-col justify-center mt-16">
+              <PatientsCircleChart color2="#ff8c59"  color1="#703bd1"  title1="Female" title2="Male" textcolor1 = "text-orange-500" textcolor2="text-purple-500"/>
         </div>
       </div>
     </div>

@@ -15,23 +15,23 @@ export function PatientsCircleChart({color1, color2, title1, title2, textcolor1,
   };
 
   return (
-    <div className="flex flex-col justify-center ml-20">
+    <>
       <Doughnut data={data} />
       <div className="flex flex-row justify-evenly font-bold mt-10 ml-10">
         <span>
           {/* <span className="w-5 h-5  mr-2 text-purple-800 cursor-pointer"> */}
-          <span className={`w-5 h-5  mr-2 text-${textcolor1}-800 cursor-pointer`}>
+          <span className={`w-5 h-5  mr-2 ${textcolor1} cursor-pointer`}>
             <FontAwesomeIcon icon={faCircle} />
           </span>
           {title1}
         </span>
         <span>
-          <span className={`w-5 h-5  mr-2 text-${textcolor2}-500 cursor-pointer`}>
+          <span className={`w-5 h-5  mr-2 ${textcolor2} cursor-pointer`}>
             <FontAwesomeIcon icon={faCircle} />
           </span>
           {title2}
         </span>
       </div>
-    </div>
+    </>
   );
 }
