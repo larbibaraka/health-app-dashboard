@@ -8,7 +8,7 @@ import {
   Tooltip,
 } from "recharts";
 
-export function PatientsLineChart() {
+export function PatientsLineChartWithoutstroks() {
   const data = [
     { name: "0", time: 25 },
     { name: "07 am", time: 100 },
@@ -19,19 +19,17 @@ export function PatientsLineChart() {
     { name: "12 am", time: 150 },
   ];
   return (
-
-      <LineChart width={650} height={300} data={data}>
-        <XAxis dataKey="name" />
-        <YAxis />
-        <CartesianGrid strokeDasharray="1" />
-        <Tooltip />
-              <Line
-          type="monotone"
-          dataKey="time"
-          stroke="#ff8c59"
-          activeDot={{ r: 4 }}
-        />
-      </LineChart>
-  
+    <LineChart width={250} height={200} data={data}>
+      {/* <XAxis dataKey="name" /> */}
+      {/* <YAxis /> */}
+      {/* <CartesianGrid strokeDasharray="1" /> */}
+      {/* <Tooltip /> */}
+      <Line
+        type="monotone"
+        dataKey="time"
+        stroke="#fff"
+        // activeDot={{ r: 4 }}
+      />
+    </LineChart>
   );
 }

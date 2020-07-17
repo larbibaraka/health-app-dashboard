@@ -1,6 +1,7 @@
 import React from "react";
 import { PatientsLineChart } from "./Charts/PatientsLineChart";
 import { PatientsDevision } from "./PatientsDevision";
+import { PatientsLineChartWithoutstroks } from "./Charts/PatientsLineChartWithoutstroks";
 
 export function StatsAreaTwo() {
   return (
@@ -61,10 +62,24 @@ export function StatsAreaTwo() {
           </div>
         </div>
         <div className="card-body flex flex-col">
-            <PatientsDevision/>
+          <PatientsDevision />
         </div>
       </div>
-      <div className="w-1/4 h-64 shadow rounded-lg bg-purple-700"></div>
+      <div className="w-1/4 shadow rounded-lg gradient-color">
+        <div className="p-10 flex flex-col">
+          <h1 className="font-bold text-4xl text-white">3,240</h1>
+          <h1 className="leading-3 text-gray-500 mt-3 font-semibold">Patients this month</h1>
+          <PatientsLineChartWithoutstroks />
+          <div className="flex flex-row justify-evenly font-bold text-white text-xl">
+            <h1>14</h1>
+            <h1>15</h1>
+            <h1>16</h1>
+            <h1>17</h1>
+            <h1>18</h1>
+            <h1>19</h1>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
