@@ -6,12 +6,11 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
 } from "recharts";
 
 export function PatientsLineChart() {
   const data = [
-    { name: "", time: 25 },
+    { name: "0", time: 25 },
     { name: "07 am", time: 100 },
     { name: "08 am", time: 110 },
     { name: "09 am", time: 70 },
@@ -26,7 +25,6 @@ export function PatientsLineChart() {
         <YAxis />
         <CartesianGrid strokeDasharray="1" />
         <Tooltip />
-      
         <Line
           type="monotone"
           dataKey="time"
