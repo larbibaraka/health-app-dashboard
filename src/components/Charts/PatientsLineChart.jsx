@@ -11,27 +11,27 @@ import {
 
 export function PatientsLineChart() {
   const data = [
-    { name: "Page A", uv: 4000, pv: 2400, amt: 2400 },
-    { name: "Page B", uv: 3000, pv: 1398, amt: 2210 },
-    { name: "Page C", uv: 2000, pv: 9800, amt: 2290 },
-    { name: "Page D", uv: 2780, pv: 3908, amt: 2000 },
-    { name: "Page E", uv: 1890, pv: 4800, amt: 2181 },
-    { name: "Page F", uv: 2390, pv: 3800, amt: 2500 },
-    { name: "Page G", uv: 3490, pv: 4300, amt: 2100 },
+    { name: "", time: 25 },
+    { name: "07 am", time: 100 },
+    { name: "08 am", time: 110 },
+    { name: "09 am", time: 70 },
+    { name: "10 am", time: 50 },
+    { name: "11 am", time: 130 },
+    { name: "12 am", time: 150 },
   ];
   return (
     <div>
-      <LineChart width={600} height={300} data={data}>
+      <LineChart width={650} height={300} data={data}>
         <XAxis dataKey="name" />
         <YAxis />
-        <CartesianGrid strokeDasharray="3" />
+        <CartesianGrid strokeDasharray="1" />
         <Tooltip />
-        <Legend />
+      
         <Line
           type="monotone"
-          dataKey="pv"
+          dataKey="time"
           stroke="#ff8c59"
-          activeDot={{ r: 8 }}
+          activeDot={{ r: 4 }}
         />
       </LineChart>
     </div>
