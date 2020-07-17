@@ -1,9 +1,10 @@
 import React from "react";
+import { PatientsLineChart } from "./Charts/PatientsLineChart";
 
 export function StatsAreaTwo() {
   return (
     <div className="flex flex-row mt-5">
-      <div className="w-2/4 h-64 shadow bg-white  rounded-lg mr-5">
+      <div className="w-2/4  shadow bg-white  rounded-lg mr-5">
         <div className="card-title flex flex-row justify-between  border-b-2 border-gray-200 p-2">
           <div className="m-4">
             <h3 className="text-xl font-bold text-gray-700 ">Time Admitted</h3>
@@ -17,7 +18,6 @@ export function StatsAreaTwo() {
                 >
                   <option className="font-normal">Today</option>
                 </select>
-
                 <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                   <svg
                     className="fill-current h-4 w-4"
@@ -31,10 +31,12 @@ export function StatsAreaTwo() {
             </div>
           </div>
         </div>
+        <div className="flex flex-row justify-center p-5">
+          <PatientsLineChart />
+        </div>
       </div>
       <div className="w-1/4 h-64 shadow bg-white  rounded-lg mr-5">
         <div className="card-title flex flex-row justify-start  border-b-2 border-gray-200 p-2">
-    
           <div className="m-2 flex flex-row">
             <div className="w-full ">
               <div className="relative">
