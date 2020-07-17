@@ -1,5 +1,6 @@
 import React from "react";
-import { MyBarChart } from './MyBarChart';
+import { PatientsBarChart } from "./Charts/PatientsBarChart";
+import { PatientsCircleChart } from "./Charts/PatientsCircleChart";
 
 export function StatsAreaOne() {
   return (
@@ -36,8 +37,9 @@ export function StatsAreaOne() {
             </div>
           </div>
         </div>
-        <div className="p-10">
-          <MyBarChart />
+        <div className="p-10 flex flex-row justify-center">
+          <PatientsBarChart />
+          <PatientsCircleChart />
         </div>
       </div>
       <div className="w-1/4 h-64 bg-white  rounded-lg shadow">
