@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.2910c18e.chunk.css",
-    "main.js": "/static/js/main.ab92a7e8.chunk.js",
-    "main.js.map": "/static/js/main.ab92a7e8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f5303390.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f5303390.js.map",
-    "static/js/2.77156a42.chunk.js": "/static/js/2.77156a42.chunk.js",
-    "static/js/2.77156a42.chunk.js.map": "/static/js/2.77156a42.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.465e3cafd197e7bc1cff5fc1bfc9e0fa.js": "/precache-manifest.465e3cafd197e7bc1cff5fc1bfc9e0fa.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2910c18e.chunk.css.map": "/static/css/main.2910c18e.chunk.css.map",
-    "static/js/2.77156a42.chunk.js.LICENSE.txt": "/static/js/2.77156a42.chunk.js.LICENSE.txt",
-    "static/media/brain.png": "/static/media/brain.78f5c2cf.png",
-    "static/media/download.jpg": "/static/media/download.f56bbfb2.jpg",
-    "static/media/profile.jpg": "/static/media/profile.e64188de.jpg"
+    "main.css": "/health-app-dashboard/static/css/main.2910c18e.chunk.css",
+    "main.js": "/health-app-dashboard/static/js/main.f2590541.chunk.js",
+    "main.js.map": "/health-app-dashboard/static/js/main.f2590541.chunk.js.map",
+    "runtime-main.js": "/health-app-dashboard/static/js/runtime-main.1d582928.js",
+    "runtime-main.js.map": "/health-app-dashboard/static/js/runtime-main.1d582928.js.map",
+    "static/js/2.8f01ef32.chunk.js": "/health-app-dashboard/static/js/2.8f01ef32.chunk.js",
+    "static/js/2.8f01ef32.chunk.js.map": "/health-app-dashboard/static/js/2.8f01ef32.chunk.js.map",
+    "index.html": "/health-app-dashboard/index.html",
+    "precache-manifest.c227a99aba7f9bd2867f324e13c3e78d.js": "/health-app-dashboard/precache-manifest.c227a99aba7f9bd2867f324e13c3e78d.js",
+    "service-worker.js": "/health-app-dashboard/service-worker.js",
+    "static/css/main.2910c18e.chunk.css.map": "/health-app-dashboard/static/css/main.2910c18e.chunk.css.map",
+    "static/js/2.8f01ef32.chunk.js.LICENSE.txt": "/health-app-dashboard/static/js/2.8f01ef32.chunk.js.LICENSE.txt",
+    "static/media/brain.png": "/health-app-dashboard/static/media/brain.78f5c2cf.png",
+    "static/media/download.jpg": "/health-app-dashboard/static/media/download.f56bbfb2.jpg",
+    "static/media/profile.jpg": "/health-app-dashboard/static/media/profile.e64188de.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f5303390.js",
-    "static/js/2.77156a42.chunk.js",
+    "static/js/runtime-main.1d582928.js",
+    "static/js/2.8f01ef32.chunk.js",
     "static/css/main.2910c18e.chunk.css",
-    "static/js/main.ab92a7e8.chunk.js"
+    "static/js/main.f2590541.chunk.js"
   ]
 }
