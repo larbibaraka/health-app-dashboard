@@ -8,8 +8,10 @@ import {
   faUserNurse,
   faHistory,
   faSlidersH,
+  faPlus
 } from "@fortawesome/free-solid-svg-icons";
 import logoImage from "../assets/images/brain.png";
+import DownloadImage from "../assets/images/download.jpg";
 export const SideBar = () => {
   return (
     <div className="sidebar flex flex-col bg-white w-1/5 shadow-lg border-l border-gray-500 ">
@@ -19,10 +21,13 @@ export const SideBar = () => {
       <div className="bg-white menu pt-10 pb-10 flex flex-col">
         <div className="register-patient self-center">
           <button className="bg-purple-600 text-gray-200 px-6 py-3 rounded-md font-semibold   hover:bg-purple-700 hover:text-white items-center focus:outline-none">
-            Register patient +
+            Register patient  
+            <span className="w-12 h-12  ml-4  cursor-pointer   ">
+                <FontAwesomeIcon icon={faPlus} />
+              </span>
           </button>
         </div>
-        <div className="menu-elements mt-5">
+        <div className="menu-elements mt-5 flex flex-col">
           <ul className="flex flex-col ">
             <li className="text-gray-700 font-sans font-bold hover:text-purple-800 cursor-pointer mt-6 p-3  text-center  ">
               <span className="w-12 h-12  mr-4 text-gray-600 cursor-pointer hover:text-purple-800 ">
@@ -67,6 +72,9 @@ export const SideBar = () => {
               Settings
             </li>
           </ul>
+        </div>
+        <div className="flex shadow-sm justify-center mt-32 p-6 border-gray-300 border-t-2">
+          <img src={DownloadImage} alt="" className=" mt-3" />
         </div>
       </div>
     </div>
