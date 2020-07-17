@@ -62,7 +62,7 @@ export function PatientsBarChart() {
       <Tooltip />
       {/* <Legend /> */}
       <Bar dataKey="Inpatients" fill="#39d39f" />
-      <Bar dataKey="Outpatients" fill="#3f48cc" />
+      <Bar dataKey="Outpatients" fill="#713bdb" />
     </BarChart>
   );
 }

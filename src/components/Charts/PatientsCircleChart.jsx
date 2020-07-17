@@ -8,7 +8,7 @@ export function PatientsCircleChart() {
     datasets: [
       {
         data: [72, 28],
-        backgroundColor: ["#3f48cc", "#39d39f"],
+        backgroundColor: ["#713bdb", "#39d39f"],
       },
     ],
     // labels: ["Inpatients", "Outpatients"],
