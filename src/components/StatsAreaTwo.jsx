@@ -5,8 +5,8 @@ import { PatientsLineChartWithoutstroks } from "./Charts/PatientsLineChartWithou
 
 export function StatsAreaTwo() {
   return (
-    <div className="flex flex-row mt-5">
-      <div className="w-2/4  shadow bg-white  rounded-lg mr-5">
+    <div className="sm:flex sm:flex-row mt-5">
+      <div className="hidden sm:block sm:w-2/4  shadow bg-white  rounded-lg mr-5">
         <div className="card-title flex flex-row justify-between  border-b-2 border-gray-200 p-2">
           <div className="m-4">
             <h3 className="text-xl font-bold text-gray-700 ">Time Admitted</h3>
@@ -37,7 +37,7 @@ export function StatsAreaTwo() {
           <PatientsLineChart />
         </div>
       </div>
-      <div className="w-1/4  shadow bg-white  rounded-lg mr-5">
+      <div className="w-full sm:w-1/4  shadow bg-white  rounded-lg mr-5">
         <div className="card-title flex flex-row justify-start  border-b-2 border-gray-200 p-2">
           <div className="m-2 flex flex-row">
             <div className="w-full ">
@@ -65,7 +65,7 @@ export function StatsAreaTwo() {
           <PatientsDevision />
         </div>
       </div>
-      <div className="w-1/4 shadow rounded-lg gradient-color">
+      <div className="hidden sm:w-1/4 sm:block shadow rounded-lg gradient-color">
         <div className="p-10 flex flex-col">
           <h1 className="font-bold text-4xl text-white">3,240</h1>
           <h1 className="leading-3 text-gray-500 mt-3 font-semibold">Patients this month</h1>

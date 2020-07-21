@@ -4,7 +4,7 @@ import { PatientsCircleChart } from "./Charts/PatientsCircleChart";
 
 export function StatsAreaOne() {
   return (
-    <div className="flex flex-row mt-5">
+    <div className="hidden sm:flex sm:flex-row mt-5">
       <div className="w-3/4 bg-white  rounded-lg mr-5 shadow flex flex-col">
         <div className="card-title flex flex-row justify-between  border-b-2 border-gray-200 p-2">
           <div className="m-4">
@@ -40,8 +40,7 @@ export function StatsAreaOne() {
         <div className="p-10 flex flex-row justify-center">
           <PatientsBarChart />
           <div className="flex flex-col justify-center ml-20">
-
-        
+       
           <PatientsCircleChart color1="#713bdb" color2="#39d39f" title1="Inpatients" title2="Outpatients" textcolor1 = "text-purple-500" textcolor2="text-green-500"/>
           </div>
         </div>

@@ -15,7 +15,7 @@ function App() {
         {/* navbar area */}
         {/* <NavBar /> */}
         {/* main area */}
-        <main className="m-5 sm:m-10 sm:p-10 flex flex-col">
+        <main className="m-10 sm:p-10 flex flex-col">
           {/* resume area */}
           <ResumeArea />
           {/* stats area 1 */}
