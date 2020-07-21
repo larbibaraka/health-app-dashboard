@@ -8,14 +8,14 @@ import { StatsAreaTwo } from "../components/StatsAreaTwo";
 import { Footer } from "../components/Footer";
 function App() {
   return (
-    <div className="flex bg-gray-100">
+    <div className="flex bg-gray-100 w-full">
       {/* side bar  area */}
       <SideBar />
       <div className="flex flex-col w-full">
         {/* navbar area */}
-        <NavBar />
+        {/* <NavBar /> */}
         {/* main area */}
-        <main className="m-10 p-10">
+        <main className="m-5 sm:m-10 sm:p-10 flex flex-col">
           {/* resume area */}
           <ResumeArea />
           {/* stats area 1 */}
