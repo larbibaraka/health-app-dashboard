@@ -15,7 +15,7 @@ import logoImage from "../assets/images/brain.png";
 import DownloadImage from "../assets/images/download.jpg";
 export const SideBar = () => {
   return (
-    <div className="sidebar flex flex-col bg-white w-1/5 shadow-lg border-l border-gray-500 ">
+    <div className="sr-only sidebar  flex flex-col bg-white w-1/5 shadow-lg border-l border-gray-500 ">
       <div className="logo h-20  flex justify-center">
         <img src={logoImage} alt="" className="h-16 w-16 mt-3" />
       </div>
